@@ -1,6 +1,8 @@
 # web_chatbot
 网页版的聊天机器人，基于flask，无聊之作，图一乐
 
+在线demo：[http://www.yhqiao.xyz:5000/index](http://www.yhqiao.xyz:5000/index)
+
 用的青云客智能聊天机器人免费api（不用注册申请直接可以用）
 
 安装下flask 框架 运行`flask_main.py`,打开本地浏览器访问`127.0.0.1:5000/index`就可以了
