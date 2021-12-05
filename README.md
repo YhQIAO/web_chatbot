@@ -13,3 +13,4 @@ print("原话>>", msg)
 res = qingyunke(msg)
 print("青云客>>", res)
 ```
+![image](https://github.com/YhQIAO/blog_images/blob/main/chatbot.png)
