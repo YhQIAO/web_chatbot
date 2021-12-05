@@ -7,8 +7,6 @@ import requests
 
 
 app = Flask(__name__)
-app.config['UPLOAD_POLDER'] = 'static/images/'
-app.config['SEND_FILE_MAX_AGE_DEFAULT'] = timedelta(seconds=1)
 
 # 进入主页
 @app.route('/index',methods=['GET','POST'])
