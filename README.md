@@ -3,6 +3,8 @@
 
 用的青云客智能聊天机器人免费api（不用注册申请直接可以用）
 
+安装下flask 框架 运行`flask_main.py`,打开本地浏览器访问`127.0.0.1:5000/index`就可以了
+
 ```
 def qingyunke(msg):
     url = 'http://api.qingyunke.com/api.php?key=free&appid=0&msg={}'.format(urllib.parse.quote(msg))
